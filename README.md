@@ -1,4 +1,4 @@
-# Chemicals-on-Cosmetics
+# Chemicals-in-Cosmetics
 
 **Introduction:**  
 
