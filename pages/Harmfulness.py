@@ -165,6 +165,9 @@ import streamlit as st
 # Streamlit title
 st.title("⚗️Chemical Harmfulness Prediction Based on Chemical Count")
 
+# Display an image from a file
+st.image('harmfullness.jpg', caption=None, use_container_width=True)
+
 # Explanation of the app
 st.markdown("""
 This app clusters chemicals based on their count using K-Means clustering. It predicts the harmfulness level of a product based on the average harmfulness of chemicals it contains.
@@ -175,7 +178,7 @@ st.subheader("Step 1: Load the Dataset")
 st.markdown("""
 We load the required dataset. Missing values are handled to ensure the data is clean.
 """)
-df = pd.read_csv(r'C:\Users\Sakshi Gaikwad\OneDrive\Desktop\cosmetics\cscpopendata.csv')
+df = pd.read_csv('data.csv')
 
 # Step 2: Fill missing values
 st.subheader("Step 2: Handle Missing Values")
